@@ -13,7 +13,7 @@ git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 ## npm
-···
+```
  npm config set registry http://registry.npm.taobao.org/
  npm config set registry https://registry.npmjs.org/
-··· 
+```
