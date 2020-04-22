@@ -1,9 +1,10 @@
 #cocoapods
 
 gem sources -a http://gems.ruby-china.com/
+
+```
 gem sources -l
 *** CURRENT SOURCES ***
-```
 http://ruby.taobao.org/
 http://rubygems.org
 http://gems.ruby-china.com/
