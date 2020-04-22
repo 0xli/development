@@ -14,3 +14,4 @@ http://rubygems.org removed from sources
 
 liwei$ sudo gem update -n /usr/local/bin
 ```
+命令行下执行pod search Bugly,如显示的Bugly版本不是最新的，则先执行pod repo update操作更新本地repo的内容
