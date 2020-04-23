@@ -1,6 +1,16 @@
 # development
 Anything related to programming language, tools, framework
 
+# curl proxy
+```
+~/.curlrc
+#socks5
+socks5 = "127.0.0.1:1080"
+#或者HTTP代理
+proxy = "127.0.0.1:9999"
+```
+http://www.foxwho.com/article/51
+
 # git proxy
 ```
 git config --global http.proxy socks5://192.168.0.94:1080
