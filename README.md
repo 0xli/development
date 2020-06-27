@@ -13,6 +13,7 @@ http://www.foxwho.com/article/51
 
 # git proxy
 ```
+git config -l
 git config --global http.proxy socks5://192.168.0.94:1080
 git config --global https.proxy socks5://192.168.0.94:1080
 
