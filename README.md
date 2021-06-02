@@ -1,6 +1,11 @@
 # development
 Anything related to programming language, tools, framework
 
+# wget proxy
+https://www.cnblogs.com/frankyou/p/6693256.html
+
+wget -e "https_proxy=http://192.168.0.163:10809/" -P $LIB_DIR https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-4.4.4.tgz
+
 # curl proxy
 ```
 ~/.curlrc
