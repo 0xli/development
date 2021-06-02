@@ -9,4 +9,6 @@ need Centos 7
 ```
 Install Licode 
 
+https://github.com/lynckia/licode.git
+
 https://licode.readthedocs.io/en/stable/docker/
