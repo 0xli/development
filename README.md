@@ -22,6 +22,16 @@ git config --global https.proxy https://127.0.0.1:1080
 
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+git clone 命令行http代理设置
+
+git clone -c  http.proxy=http://IP:PORT/  https://github.com/user/path
+[root@localhost ~]# git clone -c http.proxy=http://192.168.0.163:10809/ https://github.com/haad/proxychains
+Cloning into 'proxychains'...
+remote: Counting objects: 794, done.
+remote: Total 794 (delta 0), reused 0 (delta 0), pack-reused 794
+Receiving objects: 100% (794/794), 457.87 KiB | 121.00 KiB/s, done.
+Resolving deltas: 100% (471/471), done.
 ```
 ## npm
 ```
