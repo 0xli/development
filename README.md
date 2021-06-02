@@ -4,7 +4,23 @@ Anything related to programming language, tools, framework
 # wget proxy
 https://www.cnblogs.com/frankyou/p/6693256.html
 
+-e, --execute=COMMAND   执行`.wgetrc'格式的命令
+
 wget -e "https_proxy=http://192.168.0.163:10809/" -P $LIB_DIR https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-4.4.4.tgz
+
+```
+~/.wgetrc
+You can set the default proxies for Wget to use for http, https, and ftp.
+# They will override the value in the environment.
+https_proxy = http://127.0.0.1:8087/
+http_proxy = http://127.0.0.1:8087/
+ftp_proxy = http://127.0.0.1:8087/
+
+# If you do not want to use proxy at all, set this to off.
+use_proxy = on
+
+复制代码
+```
 
 # curl proxy
 ```
