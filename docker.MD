@@ -24,3 +24,12 @@ Install Licode
 https://github.com/lynckia/licode.git
 
 https://licode.readthedocs.io/en/stable/docker/
+
+
+## save & load
+https://blog.csdn.net/ncdx111/article/details/79878098
+```
+sudo docker commit -m "172 working almost" 860e2df40368  ubuntu:licodedev
+sudo docker save -o /data/licodedev.tar ubuntu:licodedev 
+docker load -i licodedev.tar
+```
