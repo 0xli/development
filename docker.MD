@@ -1,5 +1,6 @@
 need Centos 7
 ```
+  sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-engine
   sudo yum update
   sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
   yum list docker-ce --showduplicates | sort -r
