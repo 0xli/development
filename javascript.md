@@ -1,5 +1,8 @@
-# 0. install latest nodejs on centos
+# 0. install latest nodejs on linux
+- centos 
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+- ubuntu
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 
 sudo yum install nodejs
 # 1. npm proxy
