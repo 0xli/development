@@ -12,3 +12,6 @@ http://blog.sina.com.cn/s/blog_1333275670102xlhr.html
 ```
 # 2. yarn
 https://classic.yarnpkg.com/en/docs/install#windows-stable
+
+# 3. pm2
+npm install pm2 -g
