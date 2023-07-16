@@ -1,6 +1,13 @@
 # development
 Anything related to programming language, tools, framework
 
+# ssh 
+https://levelup.gitconnected.com/how-to-connect-without-password-using-ssh-passwordless-9b8963c828e8
+```
+ssh-keygen
+ssh-copy-id remote_username@remote_server_ip_address
+ssh remote_username@remote_server_ip_address
+```
 # wget proxy
 https://www.cnblogs.com/frankyou/p/6693256.html
 
