@@ -8,6 +8,12 @@ ssh-keygen
 ssh-copy-id remote_username@remote_server_ip_address
 ssh remote_username@remote_server_ip_address
 ```
+# add sudo user
+```
+adduser sammy
+usermod -aG sudo sammy
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-sudo-enabled-user-on-ubuntu-22-04-quickstart
+```
 # wget proxy
 https://www.cnblogs.com/frankyou/p/6693256.html
 
