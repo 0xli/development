@@ -189,6 +189,76 @@ metacode.fun {
 
 Let me know if you want help adding subdomains like `api.metacode.fun` or enabling cache headers.
 
+Yes, you’ll need to **install Node.js** on your remote Ubuntu server before running your Next.js or React project.
+
+Here’s the **recommended quick setup** for Ubuntu (works on Ubuntu 20.04/22.04/24.04):
+
+---
+
+### ✅ 1. SSH into your server
+
+```bash
+ssh username@your.server.ip
+```
+
+---
+
+### ✅ 2. Install Node.js (LTS) + npm using `nvm`
+
+This is the cleanest way and lets you manage versions easily:
+
+```bash
+# Install nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Load nvm into shell (or re-login)
+export NVM_DIR="$HOME/.nvm"
+source "$NVM_DIR/nvm.sh"
+
+# Install latest LTS version of Node.js
+nvm install --lts
+
+# Set default
+nvm alias default lts/*
+```
+
+You now have:
+
+* `node`
+* `npm`
+* Easily upgradeable Node.js in the future
+
+---
+
+### ✅ 3. Confirm Installation
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+### ✅ 4. (Optional) Install `pm2` to manage the app
+
+```bash
+npm install -g pm2
+```
+
+Use it to start and keep your app running:
+
+```bash
+cd ~/my-project-folder
+pm2 start npm --name "my-app" -- start
+pm2 save
+pm2 startup
+```
+
+---
+
+Would you like me to give you a full install + deploy shell script you can copy/paste?
+
+
 To copy all project files (e.g., your Next.js/React app) to a remote Ubuntu server, use `scp` or `rsync` over SSH.
 
 ---
